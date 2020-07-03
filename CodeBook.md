@@ -1,5 +1,5 @@
 ---
-##Code book for Coursera Getting and Cleaning Data course project##
+Code book for Coursera Getting and Cleaning Data course project
 ---
 Raw data was obtained from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
@@ -8,7 +8,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 Unziped files were store on saem dir (called "allfiles").
 
-##Details on each file from raw data set##
+##Details on each file from raw data set
 
 - X_train.txt : 
   - 7352 observations of 561 variables.
@@ -43,7 +43,7 @@ Unziped files were store on saem dir (called "allfiles").
   - Shows information on the folowing activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
  
  
- ##Details on each variable##
+##Details on each variable
 
 - features: output from reading "features.txt". Raw data does not have headers.
 - featurelabels: readable variables information from features.
@@ -58,5 +58,5 @@ Unziped files were store on saem dir (called "allfiles").
 - extracted_data <- data frame with columns from  total_data info on subejct, activity and columns with mean and std infomration.
 - sbj_act_mean: tidy data set with the average of each variable for each activity and each subject.
 
-## Output##
+## Output
 - tidy_data.txt: txt file containing sbj_act_mean information.
