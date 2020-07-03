@@ -8,7 +8,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 Unziped files were store on saem dir (called "allfiles").
 
-##Details on each file from raw data set
+## Details on each file from raw data set
 
 - X_train.txt : 
   - 7352 observations of 561 variables.
@@ -42,8 +42,7 @@ Unziped files were store on saem dir (called "allfiles").
   - 6 boservations of 2 variables
   - Shows information on the folowing activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
  
- 
-##Details on each variable
+## Details on each variable
 
 - features: output from reading "features.txt". Raw data does not have headers.
 - featurelabels: readable variables information from features.
